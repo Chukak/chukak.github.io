@@ -1,0 +1,40 @@
+/* CSS Document */
+ /* navbar-left {padding-left:8px;}           */
+ .tgfd {height:50px;}
+ .clr {background-color:#14667D;
+ }
+ 
+ @media (min-width: 768px)
+.navbar {
+    border-radius: 0px;}
+ 
+ .row > .col-md-4 > img {padding:6px;}
+ .icon-style > a { padding: 5px; color:#a29595;}
+/* .icon-row > .col-md-4 > a {padding-left: 6px;} 
+
+ 
+/*.footer { 
+margin-bottom:26px;}
+
+/* html {
+  position: relative;
+  min-height: 100%;
+}  */
+   /*
+}  */ 
+
+ div > a {padding: 10px 0 20px 0;}
+
+.absl  {bottom:0;
+
+position:absolute;}
+
+.footer {
+ bottom:0;               
+ position:relative;
+ width:100%;
+ height:60px;
+ background:#14667D;
+ }      
+ 
+ .content {padding-top:10px; text-align:center; background-color:#fff; position:relative;}
