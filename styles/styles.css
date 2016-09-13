@@ -71,7 +71,7 @@ div > a {
 	bottom: 0;
 	position: relative;
 	width: 100%;
-	height: 60px;
+	height: 100%;
 }
 
 .content {
@@ -97,3 +97,5 @@ div > a {
 	transform: scaleX(1.015) scaleY(0.97);
   
 }
+
+.logo-ch { padding:2px 0px 8px 0; }
