@@ -1,40 +1,101 @@
 /* CSS Document */
- /* navbar-left {padding-left:8px;}           */
- .tgfd {height:50px;}
- .clr {background-color:#14667D;
- }
- 
- @media (min-width: 768px)
+/* navbar-left {
+	padding-left: 8px;
+}
+#14667D     */
+.clr {
+	background-color: #387CBD;
+}
+/* @media (min-width: 768px) */
+#logo-nav {
+	padding: 8px 15px;
+}
+.border-bottom {
+	border-bottom: 2px solid #000;
+}
 .navbar {
-    border-radius: 0px;}
- 
- .row > .col-md-4 > img {padding:6px;}
- .icon-style > a { padding: 5px; color:#a29595;}
-/* .icon-row > .col-md-4 > a {padding-left: 6px;} 
-
- 
-/*.footer { 
-margin-bottom:26px;}
-
-/* html {
-  position: relative;
-  min-height: 100%;
-}  */
-   /*
-}  */ 
-
- div > a {padding: 10px 0 20px 0;}
-
-.absl  {bottom:0;
-
-position:absolute;}
-
+	margin-bottom: 0px;
+}
+.row > .col-md-4 > img {
+	padding: 6px;
+}
+.icon-style > a {
+	padding: 15px 5px;
+	color: #fff;
+}
+.icon-style > a:hover {
+	color: #333;
+	text-decoration: none;
+}
+/* .icon-row > .col-md-4 > a {
+	padding-left: 6px;
+}
+*/
+span.fa {
+	position: absolute;
+	top: 50%;
+}
+/* текст для фактов в виде асайда */
+.img-custom-asd {
+	display: block;
+	padding: 5px 8px;
+	float: left;
+	border-radius: 15px;
+}
+.text-custom-asd {
+	overflow: hidden;
+	height: 70px;
+	vertical-align: middle;
+	display: table-cell;
+}
+a:hover {
+	text-decoration: none;
+}
+body#custom-bg {
+	background: #000;
+	background-image: url(background/mr-robot-high2-2.jpg);
+	background-position: top center;
+	background-attachment: scroll;
+	background-size: 1500px auto;
+	background-repeat: no-repeat;
+	padding-top: 530px;
+}
+div > a {
+	padding: 10px 0 20px 0;
+}
+.absl {
+	bottom: 0;
+	position: absolute;
+}
 .footer {
- bottom:0;               
- position:relative;
- width:100%;
- height:60px;
- background:#14667D;
- }      
- 
- .content {padding-top:10px; text-align:center; background-color:#fff; position:relative;}
+	bottom: 0;
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+#bg-index {
+	background: #fff;
+}
+.content {
+	background-color: #fff;
+	padding-top: 8px;
+	padding-bottom: 25px;
+}
+
+
+
+.banner img {
+	transition: all .3s ease 0s;
+	height: auto;
+	width: 100%;
+  margin: 0 0 5px 0;
+	position: relative;
+}
+.banner a {
+	transition: none;
+}
+.banner img:hover {
+	opacity: 0.65;
+	transform: scaleX(1.015) scaleY(0.97);
+  
+}
