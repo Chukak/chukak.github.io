@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">                                                 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">                                                 
     <link href="styles/styles.css" rel="stylesheet">                                                 
-    <link href="bootstrap/css/font-awesome.min.css" rel="stylesheet">                                               
+    <link href="bootstrap/css/font-awesome.min.css" rel="stylesheet">  
+    <link href="styles/pagination.css" rel="stylesheet">                                             
     <!-- <link href="styles/carousel.css" rel="stylesheet">  -->                                                             
     <title>LUL                                             
     </title>                                                 
@@ -18,7 +19,9 @@
                                               <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
                                             [endif]-->                                       
   </head>              
-  <body id="custom-bg" class="img-responsive">                     
+  <body class="custom-bg" id="facts-bg">
+  <div class="hh">
+  </div>                     
     <!-- <div class="navbar navbar-inverse navbar-static-top clr">                                     
                           <div class="container">                                               
                             <div classs="navbar-header">                                                         
@@ -51,12 +54,13 @@
                             </div>                                     
                           </div>                           
                         </div>  -->                            
-    <div class="container" >                  
+    <div class="container">                  
       <div class="row">                      
         <div class="col-md-12 content">                   
-          <div class="banner">                     
-            <a href="#">              
-              <img class="img-responsive" src="image/PHP.jpg"></a>                   
+          <div class="banner">
+          <p>                     
+            <a href="#" style="border: 5px solid #fff;">              
+              <img class="img-responsive" src="image/PHP.jpg"></a></p>                   
           </div>                 
         </div>                                    
         <div class="col-md-12 content">                                                
@@ -146,7 +150,7 @@
         <div class="footer clr">                           
           <div class="container">                                                                 
             <div class="navbar-header">                                                
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">                                                                                                                       
+             <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">                                                                                                                       
                 <span class="sr-only">NAV                                                                                                                     
                 </span>                                                                                                                       
                 <span class="icon-bar">                                                                                                                    
@@ -155,10 +159,10 @@
                 </span>                                                                                                                       
                 <span class="icon-bar">                                                                                                                    
                 </span>                                                                                                     
-              </button>                                                                                                     
+              </button>  -->                                                                                                   
               <a class="navbar-brand" href="#" style="color:#FAFAF7">НАВЕРХ</a>                                                  
             </div>                                        
-            <div class="navbar-collapse collapse" id="navbar">                                                
+            <div class="navbar-collapse collapse visible-xs" id="navbar">                                                
               <div class="navbar-right icon-style">                                                 
                 <a href="#" class="fa fa-vk fa-lg"></a>                                                     
                 <a href="#" class="fa fa-twitter fa-lg"></a>                                                     
@@ -167,7 +171,7 @@
                 <a href="#" class="fa fa-google-plus fa-lg"></a>                       
               </div>                     
             </div>                    
-            <div class="navbar-collapse collapse">                      
+            <div class="navbar-collapse collapse hidden-xs">                      
               <div class="navbar-right">                           
                 <a href="#">                               
                   <img  src="image/logo.png" width="85px" height="auto" class="img-responsive logo-ch"></a>                         
