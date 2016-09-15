@@ -135,3 +135,5 @@ div > a {
 
 .pages { text-align:center;
 }
+.image-pages {margin:2px 0;}  
+.image-pages img {padding:2px; border: 4px solid #8D8F8D; border-radius:2px; }
