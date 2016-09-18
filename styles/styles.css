@@ -31,6 +31,16 @@
 	padding-left: 6px;
 }
 */
+
+.actors-size img { width:120px; height:auto; margin-right:15px; float:right;}
+
+
+
+.h3-margin p {margin-bottom:72px;} 
+.h3-margin h3 {margin-top:42px;}      
+
+
+
 span.fa {
 	position: absolute;
 	top: 50%;
@@ -56,6 +66,9 @@ a:hover {
 }
 #foto-bg { background-color:#809692; background-image: url(background/mrr3.jpg);
 }
+#official-bg {background-color:#c6d4f5; background-image: url(background/mrt2.jpg);}
+
+#actors-bg {background-color:#050505 ; background-image: url(background/mrr-bg.jpg); }
 
 .custom-bg {
 	background-position: top center;
@@ -67,6 +80,8 @@ a:hover {
 }
 
 .hh {height:556px; position:relative; padding:0; width:100%;}
+
+
 
 div > a {
 	padding: 10px 0 20px 0;
@@ -89,6 +104,19 @@ div > a {
   
 }
 
+.navbar-form { width:auto; border:0; margin-left:0; padding-top:0; padding-bottom:0; float:right; box-shadow:none; margin-right:-15px;}
+
+@media screen and (max-width:400px) {
+.navbar-form { float:left;}       }
+
+.focus {border-radius: 10px; transition: all 1s ease-in-out 2s; }
+.focus input {display:inline-block; width:auto; vertical-align:middle;}
+.focus button {display:inline-block; width:auto; vertical-align:middle;}
+.focus input:focus { opacity:0.9; width: 250px;}
+.navbar-toggle:focus {
+    outline: 0;
+}
+
 
 
 .banner img {
@@ -103,7 +131,7 @@ div > a {
 }
 .banner img:hover {
 	opacity: 0.65;
-	transform: scaleX(1.015) scaleY(0.97);
+	transform: scaleX(1.005) scaleY(0.97);
   
 }
 
@@ -133,7 +161,11 @@ div > a {
 @media screen and (max-width:620px) and (min-width:420px) {.hh {height:259px;}}
 @media screen and (max-width:420px)   {.hh{height:203px;}}
 
-.pages { text-align:center;
-}
+.pages { text-align:center;}
+
+
 .image-pages {margin:2px 0;}  
 .image-pages img {padding:2px; border: 4px solid #8D8F8D; border-radius:2px; }
+
+.image-off img {border: 4px solid #8D8F8D; width:450px; border-radius:3px; height:auto; margin:3px 0;}
+.image-off p {margin:16px 2px;}
